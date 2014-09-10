@@ -8,13 +8,6 @@ import requests
 from colorama import Fore
 
 
-# Uncomment to connect through a SOCKS4 proxy
-#import socks
-#import socket
-#socks.set_default_proxy(socks.SOCKS4, "localhost")
-#socket.socket = socks.socksocket
-
-
 KEYSTONE_URL = 'http://172.16.0.2:5000/v3'
 NEUTRON_URL = 'http://172.16.0.2:9696/v2.0'
 NOVA_URL = 'http://172.16.0.2:8774/v2'
